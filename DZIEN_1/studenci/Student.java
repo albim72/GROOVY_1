@@ -1,19 +1,38 @@
-public class Student extends Osoba {
-    String nrAlbumu;
-    String uczelnia;
-    String kierunek;
+public class Osoba {
+    //CTRL+D - duplikacja
 
-    public Student(String imie, String nazwisko, String miejscowosc, Integer wiek, String nrAlbumu, String uczelnia, String kierunek) {
-        super(imie, nazwisko, miejscowosc, wiek);
-        this.nrAlbumu = nrAlbumu;
-        this.uczelnia = uczelnia;
-        this.kierunek = kierunek;
+    String imie;
+    String nazwisko;
+    String miejscowosc;
+    Integer wiek;
+
+    String koloroczu;
+    public Osoba(String imie, String nazwisko, String miejscowosc, Integer wiek) {
+        this.imie = imie;
+        this.nazwisko = nazwisko;
+        this.miejscowosc = miejscowosc;
+        this.wiek = wiek;
+        this.koloroczu = "brązowe";
     }
 
-    @Override
-    public void printOsoba() {
-        super.printOsoba();
-        System.out.println("Student: " + nrAlbumu + ", uczelnia: " + uczelnia + ", kierunek" + kierunek);
+    public Osoba(String imie, String nazwisko, String miejscowosc) {
+        this.imie = imie;
+        this.nazwisko = nazwisko;
+        this.miejscowosc = miejscowosc;
+    }
+
+    public Osoba() {
+    }
+
+    public void printOsoba(){
+        System.out.printf("Osoba -> imię: %s, nazwisko: %s, miejscowość: %s. wiek: %d\n",imie,nazwisko,miejscowosc,wiek);
+    }
+
+    public String getKoloroczu() {
+        return koloroczu;
+    }
+
+    public void setKoloroczu(String koloroczu) {
+        this.koloroczu = koloroczu;
     }
 }
-
