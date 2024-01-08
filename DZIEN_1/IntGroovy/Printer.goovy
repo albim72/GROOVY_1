@@ -1,0 +1,7 @@
+
+class Printer implements Printable{
+    @Override
+    void printMessage(String message) {
+        println("Prining.... : $message")
+    }
+}
