@@ -17,5 +17,10 @@ public class Main {
         Osoba st3 = (Osoba)st1;
         st3.printOsoba();
 
+        st1.kierunek = "Fizyka";
+        st1.printOsoba();
+        st1.setKoloroczu("niebieski");
+        System.out.printf("kolor oczu: %s\n",st1.getKoloroczu());
+
     }
 }
