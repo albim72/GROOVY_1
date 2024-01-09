@@ -10,4 +10,6 @@ public abstract class Prototyp {
     }
     public abstract double policz();
     public abstract double policzX();
+
+    public abstract void niewiem();
 }
