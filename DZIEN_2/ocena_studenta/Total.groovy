@@ -1,0 +1,4 @@
+interface Total {
+    void DisplayTotal()
+
+}
