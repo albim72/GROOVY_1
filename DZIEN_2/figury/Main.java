@@ -9,5 +9,13 @@ public class Main {
         nazwa =  tr.getClass().getSimpleName();
         System.out.printf("Figura: %s, pole: %f cm2\n",nazwa,tr.policzPole());
 
+        Trapez trp = new Trapez(8.2,6.1,5);
+        nazwa =  trp.getClass().getSimpleName();
+        System.out.printf("Figura: %s, pole: %f cm2\n",nazwa,trp.policzPole());
+
+        Kolo kl = new Kolo(5.5);
+        nazwa =  kl.getClass().getSimpleName();
+        System.out.printf("Figura: %s, pole: %f cm2\n",nazwa,kl.policzPole());
+
     }
 }
