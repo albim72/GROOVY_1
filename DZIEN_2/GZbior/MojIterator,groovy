@@ -1,0 +1,17 @@
+class MojIterator {
+    def zbior
+    def iterator
+
+    MojIterator(zbior) {
+        this.zbior = zbior
+        this.iterator = zbior.iterator()
+    }
+    
+    boolean hasNext(){
+        iterator.hasNext()
+    }
+    
+    def next() {
+        iterator.next()
+    }
+}
