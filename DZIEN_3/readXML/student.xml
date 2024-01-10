@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class>
+    <student id="54545">
+        <firstname>Olga</firstname>
+        <lastname>Kot</lastname>
+        <nickname>kotek</nickname>
+        <marks>89</marks>
+    </student>
+    <student id="86756">
+        <firstname>Leon</firstname>
+        <lastname>Tym</lastname>
+        <nickname>tymek</nickname>
+        <marks>63</marks>
+    </student>
+    <student id="132343">
+        <firstname>Maria</firstname>
+        <lastname>Nowak</lastname>
+        <nickname>mara</nickname>
+        <marks>70</marks>
+    </student>
+    <student id="78734">
+        <firstname>Dariusz</firstname>
+        <lastname>Kos</lastname>
+        <nickname>koso</nickname>
+        <marks>34</marks>
+    </student>
+    <student id="235675">
+        <firstname>Karol</firstname>
+        <lastname>Ryś</lastname>
+        <nickname>rychu</nickname>
+        <marks>90</marks>
+    </student>
+</class>
